@@ -4,6 +4,7 @@
  */
 
 @font-face {
+<<<<<<< HEAD
   font-family: "FontAwesome";
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0")
@@ -12,6 +13,19 @@
     url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
     url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
     url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
+=======
+  font-family: FontAwesome;
+  src: url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.eot?v=4.7.0);
+  src: url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0)
+      format("embedded-opentype"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.woff2?v=4.7.0)
+      format("woff2"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.woff?v=4.7.0)
+      format("woff"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.ttf?v=4.7.0)
+      format("truetype"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular)
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -31,6 +45,7 @@
   line-height: 0.75em;
   vertical-align: -15%;
 }
+<<<<<<< HEAD
 
 .fa-2x {
   font-size: 2em;
@@ -53,6 +68,8 @@
   text-align: center;
 }
 
+=======
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 .fa-ul {
   padding-left: 0;
   margin-left: 2.14285714em;
@@ -74,6 +91,7 @@
 .fa-li.fa-lg {
   left: -1.85714286em;
 }
+<<<<<<< HEAD
 
 .fa-border {
   padding: 0.2em 0.25em 0.15em;
@@ -123,6 +141,8 @@
   animation: fa-spin 1s infinite steps(8);
 }
 
+=======
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 @-webkit-keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -144,6 +164,7 @@
     transform: rotate(359deg);
   }
 }
+<<<<<<< HEAD
 
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
@@ -417,6 +438,14 @@
   content: "\f033";
 }
 
+=======
+.fa-repeat:before {
+  content: "\f01e";
+}
+.fa-font:before {
+  content: "\f031";
+}
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 .fa-text-height:before {
   content: "\f034";
 }
@@ -424,6 +453,7 @@
 .fa-text-width:before {
   content: "\f035";
 }
+<<<<<<< HEAD
 
 .fa-align-left:before {
   content: "\f036";
@@ -3026,6 +3056,48 @@
 
 .fa-meetup:before {
   content: "\f2e0";
+=======
+.fa-image:before,
+.fa-photo:before {
+  content: "\f03e";
+}
+.fa-edit:before {
+  content: "\f044";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-link:before {
+  content: "\f0c1";
+}
+.fa-html5:before {
+  content: "\f13b";
+}
+.fa-css3:before {
+  content: "\f13c";
+}
+.fa-instagram:before {
+  content: "\f16d";
+}
+.fa-dribbble:before {
+  content: "\f17d";
+}
+.fa-header:before {
+  content: "\f1dc";
+}
+.fa-edge:before {
+  content: "\f282";
+}
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "\f2b4";
+}
+.fa-s15:before {
+  content: "\f2cd";
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 }
 
 .sr-only {
@@ -3038,6 +3110,7 @@
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+<<<<<<< HEAD
 
 .sr-only-focusable:active,
 .sr-only-focusable:focus {
@@ -3048,3 +3121,5 @@
   overflow: visible;
   clip: auto;
 }
+=======
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1

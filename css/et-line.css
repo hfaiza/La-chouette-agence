@@ -1,13 +1,18 @@
 @font-face {
   font-family: et-line;
-  src: url(../fonts/et-line.eot);
-  src: url(../fonts/et-line.eot?#iefix) format("embedded-opentype"),
-    url(../fonts/et-line.woff) format("woff"),
-    url(../fonts/et-line.ttf) format("truetype"),
-    url(../fonts/et-line.svg#et-line) format("svg");
+  src: url(https://hfaiza.github.io/La-chouette-agence/fonts/et-line.eot);
+  src: url(https://hfaiza.github.io/La-chouette-agence/fonts/et-line.eot?#iefix)
+      format("embedded-opentype"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/et-line.woff)
+      format("woff"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/et-line.ttf)
+      format("truetype"),
+    url(https://hfaiza.github.io/La-chouette-agence/fonts/et-line.svg#et-line)
+      format("svg");
   font-weight: 400;
   font-style: normal;
 }
+<<<<<<< HEAD
 
 .et-icon-adjustments,
 .et-icon-alarmclock,
@@ -20,95 +25,15 @@
 .et-icon-bike,
 .et-icon-book-open,
 .et-icon-briefcase,
+=======
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 .et-icon-browser,
-.et-icon-calendar,
-.et-icon-camera,
-.et-icon-caution,
-.et-icon-chat,
-.et-icon-circle-compass,
-.et-icon-clipboard,
-.et-icon-clock,
-.et-icon-cloud,
-.et-icon-compass,
-.et-icon-desktop,
-.et-icon-dial,
-.et-icon-document,
-.et-icon-documents,
-.et-icon-download,
 .et-icon-dribbble,
 .et-icon-edit,
-.et-icon-envelope,
-.et-icon-expand,
 .et-icon-facebook,
-.et-icon-flag,
-.et-icon-focus,
-.et-icon-gears,
-.et-icon-genius,
-.et-icon-gift,
-.et-icon-global,
-.et-icon-globe,
-.et-icon-googleplus,
-.et-icon-grid,
-.et-icon-happy,
-.et-icon-hazardous,
-.et-icon-heart,
-.et-icon-hotairballoon,
-.et-icon-hourglass,
-.et-icon-key,
-.et-icon-laptop,
-.et-icon-layers,
-.et-icon-lifesaver,
-.et-icon-lightbulb,
-.et-icon-linegraph,
-.et-icon-linkedin,
-.et-icon-lock,
-.et-icon-magnifying-glass,
-.et-icon-map,
-.et-icon-map-pin,
-.et-icon-megaphone,
-.et-icon-mic,
-.et-icon-mobile,
-.et-icon-newspaper,
-.et-icon-notebook,
-.et-icon-paintbrush,
-.et-icon-paperclip,
-.et-icon-pencil,
-.et-icon-phone,
-.et-icon-picture,
-.et-icon-pictures,
-.et-icon-piechart,
 .et-icon-presentation,
-.et-icon-pricetags,
-.et-icon-printer,
-.et-icon-profile-female,
-.et-icon-profile-male,
-.et-icon-puzzle,
-.et-icon-quote,
-.et-icon-recycle,
-.et-icon-refresh,
-.et-icon-ribbon,
-.et-icon-rss,
-.et-icon-sad,
-.et-icon-scissors,
-.et-icon-scope,
-.et-icon-search,
-.et-icon-shield,
-.et-icon-speedometer,
-.et-icon-strategy,
-.et-icon-streetsign,
-.et-icon-tablet,
 .et-icon-target,
-.et-icon-telescope,
-.et-icon-toolbox,
-.et-icon-tools,
-.et-icon-tools-2,
-.et-icon-trophy,
-.et-icon-tumblr,
-.et-icon-twitter,
-.et-icon-upload,
-.et-icon-video,
-.et-icon-wallet,
-.et-icon-wine {
+.et-icon-twitter {
   font-family: et-line;
   speak: none;
   font-style: normal;
@@ -120,6 +45,7 @@
   -moz-osx-font-smoothing: grayscale;
   display: inline-block;
 }
+<<<<<<< HEAD
 
 .et-icon-mobile:before {
   content: "\e000";
@@ -493,6 +419,20 @@
   content: "\e05c";
 }
 
+=======
+.et-icon-browser:before {
+  content: "\e00c";
+}
+.et-icon-presentation:before {
+  content: "\e00e";
+}
+.et-icon-edit:before {
+  content: "\e01c";
+}
+.et-icon-target:before {
+  content: "\e04e";
+}
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 .et-icon-facebook:before {
   content: "\e05d";
 }
@@ -500,6 +440,7 @@
 .et-icon-twitter:before {
   content: "\e05e";
 }
+<<<<<<< HEAD
 
 .et-icon-googleplus:before {
   content: "\e05f";
@@ -517,6 +458,8 @@
   content: "\e062";
 }
 
+=======
+>>>>>>> 4288de5fa9d5770a1fc4f3c08886e4f2f6a5d4b1
 .et-icon-dribbble:before {
   content: "\e063";
 }
