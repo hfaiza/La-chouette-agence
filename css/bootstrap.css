@@ -1123,6 +1123,7 @@ img {
 .thumbnail a > img,
 .thumbnail > img {
   display: block;
+  margin: auto;
   max-width: 100%;
   height: auto;
 }
