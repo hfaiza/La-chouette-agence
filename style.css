@@ -64,6 +64,8 @@ figcaption {
 }
 .bottom {
   margin-bottom: 25px;
+  font-size: 18px !important;
+  color: #000000;
 }
 .col-sm-12 p {
   font-size: 20px;
@@ -80,6 +82,11 @@ label {
 .flex {
   display: flex;
   justify-content: space-between;
+}
+.bold {
+  font-weight: bold;
+  font-size: 25px !important;
+  color: #fff !important;
 }
 .bg-center,
 .bg-l-edge,
@@ -114,7 +121,7 @@ label {
 .texture-paper::before {
   background: url(img/texture-paper.png);
   background-size: 280px 280px;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .b-parallax {
   background-attachment: fixed;
@@ -698,7 +705,7 @@ h4 {
   color: #ffffff !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #c2501c !important;
   color: #ffffff !important;
 }
 .ltc-white {
