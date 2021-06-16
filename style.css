@@ -88,6 +88,9 @@ label {
   font-size: 25px !important;
   color: #fff !important;
 }
+address {
+  color: #000;
+}
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -286,6 +289,9 @@ label {
 #bloc-1-hero h1 {
   font-size: 40px;
   color: #deb14a !important;
+}
+#bloc-1-hero img {
+  margin-bottom: 3rem;
 }
 .navbar {
   margin-bottom: 0;
