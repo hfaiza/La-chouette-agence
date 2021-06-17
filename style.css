@@ -10,7 +10,7 @@ body {
 a,
 button {
   transition: all 0.3s ease-in-out;
-  outline: none !important;
+  outline: 0 !important;
 }
 a:hover {
   text-decoration: none;
@@ -65,14 +65,14 @@ figcaption {
 .bottom {
   margin-bottom: 25px;
   font-size: 18px !important;
-  color: #000000;
+  color: #000;
 }
 .col-sm-12 p {
   font-size: 20px;
 }
 .yellow {
   color: #deb14a !important;
-  font-weight: bold;
+  font-weight: 700;
 }
 label {
   display: block;
@@ -84,23 +84,25 @@ label {
   justify-content: space-between;
 }
 .bold {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 25px !important;
   color: #fff !important;
 }
 address {
   color: #000;
+  font-size: 17px;
+  text-align: center;
 }
+.bg-b-edge,
+.bg-bl-edge,
+.bg-br-edge,
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
+.bg-repeat,
 .bg-t-edge,
-.bg-b-edge,
 .bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
+.bg-tr-edge {
   -webkit-background-size: auto !important;
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
@@ -122,9 +124,8 @@ address {
   right: 0;
 }
 .texture-paper::before {
-  background: url(img/texture-paper.png);
+  background: url(img/texture-paper.webp);
   background-size: 280px 280px;
-  opacity: 0.5;
 }
 .b-parallax {
   background-attachment: fixed;
@@ -136,10 +137,10 @@ address {
   color: rgba(255, 255, 255, 0.9);
 }
 .d-bloc .icon-round,
-.d-bloc .icon-square,
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
+.d-bloc .icon-semi-rounded-b,
+.d-bloc .icon-square {
   border-color: rgba(255, 255, 255, 0.9);
 }
 .d-bloc .divider-h span {
@@ -148,9 +149,9 @@ address {
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
 .d-bloc a .icon-lg,
+.d-bloc a .icon-md,
+.d-bloc a .icon-sm,
 .d-bloc a .icon-xl,
 .d-bloc h1 a,
 .d-bloc h2 a,
@@ -164,9 +165,9 @@ address {
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
 .d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
 .d-bloc a:hover .icon-lg,
+.d-bloc a:hover .icon-md,
+.d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
 .d-bloc h2 a:hover,
@@ -175,15 +176,15 @@ address {
 .d-bloc h5 a:hover,
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
 }
 .d-bloc .navbar-toggle .icon-bar {
-  background: rgba(255, 255, 255, 1);
+  background: #fff;
 }
 .d-bloc .btn-wire,
 .d-bloc .btn-wire:hover {
-  color: rgba(255, 255, 255, 1);
-  border-color: rgba(255, 255, 255, 1);
+  color: #fff;
+  border-color: #fff;
 }
 .d-bloc .panel {
   color: rgba(0, 0, 0, 0.5);
@@ -201,7 +202,7 @@ address {
   color: rgba(0, 0, 0, 0.6);
 }
 .d-bloc .panel .a-btn:hover {
-  color: rgba(0, 0, 0, 1);
+  color: #000;
 }
 .d-bloc .panel .btn-wire,
 .d-bloc .panel .btn-wire:hover {
@@ -217,10 +218,10 @@ address {
   color: rgba(0, 0, 0, 0.7);
 }
 .l-bloc .icon-round,
-.l-bloc .icon-square,
 .l-bloc .icon-rounded,
 .l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
+.l-bloc .icon-semi-rounded-b,
+.l-bloc .icon-square {
   border-color: rgba(0, 0, 0, 0.7);
 }
 .d-bloc .panel .divider-h span,
@@ -231,9 +232,9 @@ address {
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
 .l-bloc a .icon-lg,
+.l-bloc a .icon-md,
+.l-bloc a .icon-sm,
 .l-bloc a .icon-xl,
 .l-bloc h1 a,
 .l-bloc h2 a,
@@ -248,9 +249,9 @@ address {
 .l-bloc .a-btn:hover,
 .l-bloc .navbar a:hover,
 .l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
 .l-bloc a:hover .icon-lg,
+.l-bloc a:hover .icon-md,
+.l-bloc a:hover .icon-sm,
 .l-bloc a:hover .icon-xl,
 .l-bloc h1 a:hover,
 .l-bloc h2 a:hover,
@@ -259,7 +260,7 @@ address {
 .l-bloc h5 a:hover,
 .l-bloc h6 a:hover,
 .l-bloc p a:hover {
-  color: rgba(0, 0, 0, 1);
+  color: #000;
 }
 .l-bloc .navbar-toggle .icon-bar {
   color: rgba(0, 0, 0, 0.6);
@@ -281,8 +282,8 @@ address {
   margin-right: 0;
   margin-left: 0;
 }
-.row.row-no-gutters > [class^="col-"],
-.row.row-no-gutters > [class*=" col-"] {
+.row.row-no-gutters > [class*=" col-"],
+.row.row-no-gutters > [class^="col-"] {
   padding-right: 0;
   padding-left: 0;
 }
@@ -329,16 +330,16 @@ address {
 .navbar-nav .open .dropdown-menu > li > a {
   text-align: inherit;
 }
-.nav > li a:hover,
-.nav > li a:focus {
-  background: transparent;
+.nav > li a:focus,
+.nav > li a:hover {
+  background: 0 0;
 }
 .navbar-toggle {
   margin: 10px 10px 0 0;
   border: 0;
 }
 .navbar-toggle:hover {
-  background: transparent !important;
+  background: 0 0 !important;
 }
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -347,8 +348,8 @@ address {
 .nav-invert .navbar .nav {
   float: left;
 }
-.nav-invert .navbar-header,
-.nav-invert .navbar-brand {
+.nav-invert .navbar-brand,
+.nav-invert .navbar-header {
   float: right;
   position: relative;
   z-index: 2;
@@ -375,9 +376,9 @@ address {
   .nav-center .navbar-header {
     width: 100%;
   }
-  .nav-center .navbar-header,
+  .nav-center .nav > li,
   .nav-center .navbar-brand,
-  .nav-center .nav > li {
+  .nav-center .navbar-header {
     float: none;
     display: inline-block;
   }
@@ -394,7 +395,7 @@ address {
   }
 }
 .nav > li > .dropdown a {
-  background: none !important;
+  background: 0 0 !important;
   display: block;
   padding: 14px 15px;
 }
@@ -435,13 +436,13 @@ nav .caret {
   margin: 0 0 5px 5px;
 }
 .btn-d,
-.btn-d:hover,
-.btn-d:focus {
+.btn-d:focus,
+.btn-d:hover {
   color: #fff;
   background: rgba(0, 0, 0, 0.3);
 }
 button {
-  outline: none !important;
+  outline: 0 !important;
 }
 .btn-rd {
   border-radius: 40px;
@@ -463,8 +464,8 @@ button {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
 }
 .panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
+.panel-sq .panel-footer,
+.panel-sq .panel-heading {
   border-radius: 0;
 }
 .panel-rd {
@@ -504,7 +505,7 @@ a[data-lightbox] {
 }
 a[data-lightbox]:hover::before {
   content: "+";
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  font-family: HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue",
     Helvetica, Arial;
   font-size: 32px;
   width: 50px;
@@ -591,19 +592,19 @@ a[data-lightbox]:hover img {
 .snapshot-lb .lightbox-caption {
   padding: 0;
   color: rgba(0, 0, 0, 0.5);
-  background: none;
+  background: 0 0;
 }
+.btn,
+a,
 h1,
 h2,
 h3,
 h4,
 h5,
 h6,
-p,
 label,
-.btn,
-a {
-  font-family: "helvetica";
+p {
+  font-family: helvetica;
   font-weight: 400;
   color: #575757 !important;
 }
@@ -638,7 +639,7 @@ p {
 }
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
+  color: #fff !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -656,7 +657,7 @@ h3 {
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #333333 !important;
+  color: #333 !important;
 }
 .med-width-whitespace {
   max-width: 800px;
@@ -664,17 +665,17 @@ h3 {
   box-shadow: 0 0 0 #000;
 }
 h1 {
-  color: #333333 !important;
+  color: #333 !important;
 }
 h4 {
-  color: #333333 !important;
+  color: #333 !important;
 }
 .icons {
   margin-bottom: 14px;
   margin-top: 24px;
 }
 .white {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .portfolio-thumb {
   margin-bottom: 24px;
@@ -708,17 +709,17 @@ h4 {
 }
 .btn-atomic-tangerine {
   background: #9e3100;
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .btn-atomic-tangerine:hover {
   background: #c2501c !important;
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .ltc-white {
-  color: #ffffff !important;
+  color: #fff !important;
 }
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #ccc !important;
 }
 .ltc-atomic-tangerine {
   color: #9e3100 !important;
@@ -731,10 +732,10 @@ h4 {
   border-color: #364577 !important;
 }
 .bg-dots-bg {
-  background-image: url(img/dots-bg.png);
+  background-image: url(img/dots-bg.webp);
 }
 .bg-lines-h2-bg {
-  background-image: url(img/lines-h2-bg.png);
+  background-image: url(img/lines-h2-bg.webp);
 }
 .bg-banniere {
   background-image: url(img/la-chouette-agence-banniere.webp);
@@ -747,18 +748,18 @@ h4 {
     padding-left: 20px;
     padding-right: 20px;
   }
-  .bloc.full-width-bloc,
   .bloc-tile-2.full-width-bloc .container,
   .bloc-tile-3.full-width-bloc .container,
-  .bloc-tile-4.full-width-bloc .container {
+  .bloc-tile-4.full-width-bloc .container,
+  .bloc.full-width-bloc {
     padding-left: 0;
     padding-right: 0;
   }
   .flex {
-    flex-direction: column;
+    display: block;
   }
-  .flex p {
-    margin-top: 40px;
+  address {
+    margin-top: 3rem;
   }
 }
 @media (max-width: 992px) and (min-width: 768px) {
@@ -786,8 +787,8 @@ h4 {
   .b-parallax {
     background-attachment: scroll;
   }
-  .page-container,
-  #hero-bloc {
+  #hero-bloc,
+  .page-container {
     overflow-x: hidden;
     position: relative;
   }
@@ -796,8 +797,8 @@ h4 {
     display: block;
     width: 100%;
   }
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
+  .bloc-fill-screen .fill-bloc-bottom-edge,
+  .bloc-fill-screen .fill-bloc-top-edge {
     padding: 0 20px;
   }
 }
@@ -806,14 +807,14 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
+  #disqus_thread,
   h1,
   h2,
   h3,
   h4,
   h5,
   h6,
-  p,
-  #disqus_thread {
+  p {
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
@@ -889,21 +890,21 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-  .bloc-xxl,
+  .bloc-lg,
   .bloc-xl,
-  .bloc-lg {
+  .bloc-xxl {
     padding: 40px 0;
   }
-  .bloc-sm,
-  .bloc-md {
+  .bloc-md,
+  .bloc-sm {
     padding-left: 0;
     padding-right: 0;
   }
+  .bloc-fill-screen .fill-bloc-bottom-edge,
+  .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-tile-2 .container,
   .bloc-tile-3 .container,
-  .bloc-tile-4 .container,
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
+  .bloc-tile-4 .container {
     padding-left: 0;
     padding-right: 0;
   }
@@ -948,5 +949,8 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+  .margin {
+    margin-bottom: 44px;
   }
 }

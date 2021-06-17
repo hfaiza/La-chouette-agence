@@ -16,21 +16,45 @@
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
 
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="preload stylesheet"
+      href="./css/bootstrap.css"
+      as="style"
+      type="text/css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload stylesheet"
+      href="style.css"
+      as="style"
+      type="text/css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload stylesheet"
+      href="./css/font-awesome.css"
+      as="font"
+      type="text/css"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload stylesheet"
+      href="./css/et-line.css"
+      as="font"
+      type="text/css"
+      crossorigin="anonymous"
+    />
     <link
       rel="preload"
-      type="text/css"
-      href="./css/font-awesome.css"
-      as="style"
+      as="image"
+      href="./img/la-chouette-agence-banniere.webp"
     />
-    <link rel="preload" type="text/css" href="./css/et-line.css" as="style" />
 
-    <script src="./js/jquery-2.1.0.js"></script>
-    <script src="./js/bootstrap.js"></script>
-    <script src="./js/blocs.js"></script>
+    <script src="./js/jquery-2.1.0.js" defer></script>
+    <script src="./js/bootstrap.js" defer></script>
+    <script src="./js/blocs.js" defer></script>
     <script src="./js/jquery.touchSwipe.js" defer></script>
-    <script src="./js/gmaps.js"></script>
+    <script src="./js/gmaps.js" defer></script>
 
     <title>La chouette agence - Entreprise de web design basée à Lyon</title>
 
@@ -48,7 +72,7 @@
             <div class="navbar-header">
               <a class="navbar-brand" href="index.html">
                 <img
-                  src="img/la-chouette-agence.png"
+                  src="img/la-chouette-agence.webp"
                   alt="La chouette agence"
                   height="40"
                 />
@@ -275,7 +299,7 @@
                 <h3 class="mg-md text-center">
                   Refonte d'un site web pour un journal local
                 </h3>
-                <p class="text-center">
+                <p class="text-center margin">
                   Nous avons créé une nouvelle identité visuelle pour un journal
                   lyonnais.
                 </p>
@@ -317,7 +341,7 @@
                 <h3 class="mg-md text-center">
                   Création d'un site web pour un voyageur
                 </h3>
-                <p class="text-center">
+                <p class="text-center margin">
                   Nous avons élaboré un site web et des illustrations pour
                   sublimer les vidéos et les articles de ce voyageur.
                 </p>
@@ -360,7 +384,7 @@
           id="bloc-5-cta"
         >
           <div class="container bloc-lg">
-            <div class="row">
+            <div class="row col-sm-12">
               <p class="mg-md text-center title bold">
                 Prêt pour redonner vie à votre projet ?<br />Contactez notre
                 équipe !
