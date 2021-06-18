@@ -16,14 +16,6 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-#page-loading-blocs-notifaction {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 100%;
-  z-index: 100000;
-  background: #fff url(img/pageload-spinner.gif) no-repeat center center;
-}
 .bloc {
   clear: both;
   background: 50% 50% no-repeat;
@@ -92,6 +84,12 @@ address {
   color: #000;
   font-size: 17px;
   text-align: center;
+}
+.navbar-brand img {
+  height: 40px;
+}
+.col-sm-12 img {
+  width: 100px;
 }
 .bg-b-edge,
 .bg-bl-edge,
@@ -488,7 +486,7 @@ button {
   bottom: 20px;
   right: 20px;
   opacity: 0;
-  z-index: 500;
+  z-index: 1;
   transition: all 0.3s ease-in-out;
 }
 .scrollToTop span {
