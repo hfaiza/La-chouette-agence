@@ -87,6 +87,9 @@ address {
 .col-sm-12 img {
   width: 100px;
 }
+#bloc-3-what-i-do h2 {
+  margin-bottom: 2rem;
+}
 .bg-b-edge,
 .bg-bl-edge,
 .bg-br-edge,
@@ -564,7 +567,7 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(165, 147, 99, 0.9);
   padding: 40px 40px 40px 40px;
 }
 .bold-link {
